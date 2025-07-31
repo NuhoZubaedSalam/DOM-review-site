@@ -32,7 +32,7 @@ container.appendChild(reviewContainer);
 Object.assign(reviewContainer.style, {
   display: "flex",
 });
-c
+
 // reviews
 reviews = [];
 for (let i = 0; i < 3; i++) {
