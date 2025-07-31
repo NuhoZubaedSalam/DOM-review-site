@@ -17,7 +17,8 @@ container.appendChild(heading);
 Object.assign(heading.style, {
   color: "black",
   fontSize: "50px",
-  padding: "50px",
+  paddingTop: "80px",
+  paddingBottom: "50px",
   margin: "0 auto",
   width: "fit-content",
 });
