@@ -58,7 +58,7 @@ for (let i = 0; i < 3; i++) {
       break;
     case 1:
       fullName = "Angel Smith";
-      company = "MAYO";
+      company = "John Hopkins Hospital";
       jobTitle = "doctor";
       gender = "female";
       break;
@@ -75,9 +75,10 @@ for (let i = 0; i < 3; i++) {
   userInfo.classList.add("montserrat")
 
   Object.assign(userInfo.style, {
+    paddingTop: "2px",
     paddingLeft: "15px",
     margin: "0",
-    color: "#383838"
+    color: "#696969ff"
   });
   profilePics[i].src = `https://avatar.iran.liara.run/public/job/${jobTitle}/${gender}`;
   
